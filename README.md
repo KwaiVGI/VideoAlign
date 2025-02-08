@@ -1,18 +1,22 @@
 # VideoReward
 
-<p align="center"> <strong> Improving Video Generation with Human Feedback </strong> </p>
+<h2 align="center"> <strong> Improving Video Generation with Human Feedback </strong> </h2>
 
 <div align="center">
-<p align="center">
-   📃 <a href="https://arxiv.org/abs/2501.13918" target="_blank">[Paper]</a> • 🌐 <a href="https://gongyeliu.github.io/videoalign/" target="_blank">[Project Page]</a> • 🤗<a href="https://huggingface.co/datasets/KwaiVGI/VideoGen-RewardBench" target="_blank">[VideoGen-RewardBench]</a>
-</p>
+  <!-- <a href='LICENSE'><img src='https://img.shields.io/badge/license-MIT-yellow'></a> -->
+  <a href='https://arxiv.org/abs/2501.13918'><img src='https://img.shields.io/badge/arXiv-VideoAlign-red'></a>  &nbsp;
+  <a href='https://gongyeliu.github.io/videoalign/'><img src='https://img.shields.io/badge/Project-VideoAlign-green'></a> &nbsp;
+  <a href="https://github.com/KwaiVGI/VideoAlign"><img src="https://img.shields.io/badge/GitHub-VideoAlign-orange?logo=github"></a> &nbsp; <br>
+  <a href='https://huggingface.co/KwaiVGI/VideoReward'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Model-VideoReward-blue'></a> &nbsp;
+  <a href='https://huggingface.co/datasets/KwaiVGI/VideoGen-RewardBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Eval%20Dataset-VideoGen--RewardBench-blue'></a> &nbsp;
+  <br>
 </div>
 
 
 ## 📖 Introduction
 
 
-This repository, **VideoAlign**, open-sources the **VideoReward** component -- our VLM-based reward model introduced in the paper [Improving Video Generation with Human Feedback](https://arxiv.org/abs/2501.13918). VideoReward evaluates generated videos across three critical dimensions:
+This repository open-sources the **VideoReward** component -- our VLM-based reward model introduced in the paper [Improving Video Generation with Human Feedback](https://arxiv.org/abs/2501.13918). VideoReward evaluates generated videos across three critical dimensions:
 * Visual Quality (VQ): The clarity, aesthetics, and single-frame reasonableness.
 * Motion Quality (MQ): The dynamic stability, dynamic reasonableness, naturalness, and dynamic degress.
 * Text Alignment (TA): The relevance between the generated video and the text prompt.

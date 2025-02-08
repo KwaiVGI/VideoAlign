@@ -2,7 +2,7 @@
 Your training data should include a CSV file and a video folder structured as follows:
 
 ```
-├── data.csv
+├── example.csv
 └── videos/
     ├── example_1_A.mp4
     ├── example_1_B.mp4

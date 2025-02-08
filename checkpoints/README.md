@@ -1,4 +1,4 @@
-Please download our checkpoints from [Huggingface](https://huggingface.co/) and put it in `./checkpoints/`.
+Please download our checkpoints from [Huggingface](https://huggingface.co/KwaiVGI/VideoReward) and put it in `./checkpoints/`.
 
 ```bash
 cd checkpoints
