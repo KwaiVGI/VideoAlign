@@ -58,8 +58,7 @@ python inference.py
 ```
 
 
-## 🏁 Eval the Performance on VideoGen-RewardBench
-
+## ✨ Eval the Performance on VideoGen-RewardBench
 
 ### 1. Download the VideoGen-RewardBench and put it in `./datasets/`.
 
