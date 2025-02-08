@@ -1,0 +1,6 @@
+*.pyc
+**/__pycache__
+wandb
+debug.sh
+_temp_videos
+anno
