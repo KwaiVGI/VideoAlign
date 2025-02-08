@@ -95,12 +95,9 @@ Our reward model is based on [QWen2-VL-2B-Instruct](https://huggingface.co/Qwen/
 
 Please leave us a star ⭐ if you find our work helpful.
 ```bibtex
-@misc{liu2025improving,
+@article{liu2025improving,
       title={Improving Video Generation with Human Feedback},
       author={Jie Liu and Gongye Liu and Jiajun Liang and Ziyang Yuan and Xiaokun Liu and Mingwu Zheng and Xiele Wu and Qiulin Wang and Wenyu Qin and Menghan Xia and Xintao Wang and Xiaohong Liu and Fei Yang and Pengfei Wan and Di Zhang and Kun Gai and Yujiu Yang and Wanli Ouyang},
-      year={2025},
-      eprint={2501.13918},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.13918}, 
+      journal={arXiv preprint arXiv:2501.13918},
+      year={2025}
 }
