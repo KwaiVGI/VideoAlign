@@ -1,7 +1,4 @@
-# VideoReward
-
 <h2 align="center"> <strong> Improving Video Generation with Human Feedback </strong> </h2>
-
 <div align="center">
   <!-- <a href='LICENSE'><img src='https://img.shields.io/badge/license-MIT-yellow'></a> -->
   <a href='https://arxiv.org/abs/2501.13918'><img src='https://img.shields.io/badge/arXiv-VideoAlign-red'></a>  &nbsp;
