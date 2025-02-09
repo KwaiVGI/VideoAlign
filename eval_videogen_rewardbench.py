@@ -30,7 +30,7 @@ def convert_pair_to_single(df_pair_anno):
 
 def convert_single_to_pair(df_pair_anno, df_single_pred):
     score_dict = {}
-    keys_to_store = ["reward_VQ", "reward_MQ", "reward_TA", "reward_ALL"]
+    keys_to_store = ["reward_VQ", "reward_MQ", "reward_TA", "reward_Overall"]
 
     for i, row in df_single_pred.iterrows():
         score_dict[row["path"]] = {k: row[k] for k in keys_to_store}
@@ -78,7 +78,7 @@ def main():
     df_single_pred["reward_VQ"] = 0.0
     df_single_pred["reward_MQ"] = 0.0
     df_single_pred["reward_TA"] = 0.0
-    df_single_pred["reward_ALL"] = 0.0
+    df_single_pred["reward_Overall"] = 0.0
 
     ## 3. infer the reward
 
@@ -108,7 +108,7 @@ def main():
                 df_single_pred.loc[batch_idx, 'reward_VQ'] = rewards[i]['VQ']
                 df_single_pred.loc[batch_idx, 'reward_MQ'] = rewards[i]['MQ']
                 df_single_pred.loc[batch_idx, 'reward_TA'] = rewards[i]['TA']
-                df_single_pred.loc[batch_idx, 'reward_ALL'] = rewards[i]['ALL']
+                df_single_pred.loc[batch_idx, 'reward_Overall'] = rewards[i]['Overall']
 
             # Reset the batch lists
             batch_video_paths = []
@@ -122,7 +122,7 @@ def main():
     df_pair_pred.to_csv(os.path.join(out_dir, "out_pair.csv"), index=False)
 
     # calculate the accuracy
-    reward_attributes = ["VQ", "MQ", "TA", "ALL"]
+    reward_attributes = ["VQ", "MQ", "TA", "Overall"]
     results = {}
     for reward_attr in reward_attributes:
         df_pair_pred[f'reward_{reward_attr}'] = df_pair_pred[f"reward_{reward_attr}_A"] - df_pair_pred[f"reward_{reward_attr}_B"]

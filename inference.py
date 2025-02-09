@@ -198,7 +198,7 @@ class VideoVLMRewardInference():
         for i in range(len(rewards)):
             if use_norm:
                 rewards[i] = self._norm(rewards[i])
-            rewards[i]['ALL'] = rewards[i]['VQ'] + rewards[i]['MQ'] + rewards[i]['TA']
+            rewards[i]['Overall'] = rewards[i]['VQ'] + rewards[i]['MQ'] + rewards[i]['TA']
 
         return rewards
 

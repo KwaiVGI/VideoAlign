@@ -13,7 +13,7 @@ DIMENSION_DESCRIPTIONS = {
     'VQ': ['visual quality', 'the quality of the video in terms of clearness, resolution, brightness, and color'],
     'TA': ['text-to-video alignment', 'the alignment between the text prompt and the video content and motion'],
     'MQ': ['motion quality', 'the quality of the motion in terms of consistency, smoothness, and completeness'],
-    'ALL': ['Overall Performance', 'the overall performance of the video in terms of visual quality, text-to-video alignment, and motion quality'],
+    'Overall': ['Overall Performance', 'the overall performance of the video in terms of visual quality, text-to-video alignment, and motion quality'],
 }
 
 SIMPLE_PROMPT = """
