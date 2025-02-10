@@ -3,9 +3,11 @@
   <!-- <a href='LICENSE'><img src='https://img.shields.io/badge/license-MIT-yellow'></a> -->
   <a href='https://arxiv.org/abs/2501.13918'><img src='https://img.shields.io/badge/arXiv-VideoAlign-red'></a>  &nbsp;
   <a href='https://gongyeliu.github.io/videoalign/'><img src='https://img.shields.io/badge/Project-VideoAlign-green'></a> &nbsp;
-  <a href="https://github.com/KwaiVGI/VideoAlign"><img src="https://img.shields.io/badge/GitHub-VideoAlign-orange?logo=github"></a> &nbsp; <br>
-  <a href='https://huggingface.co/KwaiVGI/VideoReward'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Model-VideoReward-blue'></a> &nbsp;
+  <a href="https://github.com/KwaiVGI/VideoAlign"><img src="https://img.shields.io/badge/GitHub-VideoAlign-9E95B7?logo=github"></a> &nbsp; 
+  <a href='https://huggingface.co/KwaiVGI/VideoReward'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Model-VideoReward-blue'></a> &nbsp; 
+  <br>
   <a href='https://huggingface.co/datasets/KwaiVGI/VideoGen-RewardBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Eval%20Dataset-VideoGen--RewardBench-blue'></a> &nbsp;
+  <a href='https://huggingface.co/spaces/KwaiVGI/VideoGen-RewardBench'><img src='https://img.shields.io/badge/Space-VideoGen--RewardBench-orange.svg?logo=data:image/svg+xml;charset=utf-8;base64,PHN2ZyB0PSIxNzM5MjA0MzY2MDEwIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjQzNDYiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cGF0aCBkPSJNNjgyLjY2NjY2NyA0NjkuMzMzMzMzVjEyOEgzNDEuMzMzMzMzdjI1Nkg4NS4zMzMzMzN2NTEyaDg1My4zMzMzMzRWNDY5LjMzMzMzM2gtMjU2eiBtLTI1Ni0yNTZoMTcwLjY2NjY2NnY1OTcuMzMzMzM0aC0xNzAuNjY2NjY2VjIxMy4zMzMzMzN6IG0tMjU2IDI1NmgxNzAuNjY2NjY2djM0MS4zMzMzMzRIMTcwLjY2NjY2N3YtMzQxLjMzMzMzNHogbTY4Mi42NjY2NjYgMzQxLjMzMzMzNGgtMTcwLjY2NjY2NnYtMjU2aDE3MC42NjY2NjZ2MjU2eiIgcC1pZD0iNDM0NyIgZmlsbD0iIzhhOGE4YSI+PC9wYXRoPjwvc3ZnPg=='></a> &nbsp;
   <br>
 </div>
 
@@ -25,7 +27,7 @@ This versatile reward model can be used for data filtering, guidance, reject sam
 
 
 ## 📝 Updates
-- __[2025.02.08]__: 🔥 Release the [VideoGen-RewardBench](https://huggingface.co/datasets/KwaiVGI/VideoGen-RewardBench).
+- __[2025.02.08]__: 🔥 Release the [VideoGen-RewardBench](https://huggingface.co/datasets/KwaiVGI/VideoGen-RewardBench) and [Leaderboard](https://huggingface.co/spaces/KwaiVGI/VideoGen-RewardBench).
 - __[2025.02.08]__: 🔥 Release the [Code](#) and [Checkpoints](https://huggingface.co/KwaiVGI/VideoReward) of VideoReward.
 - __[2025.01.23]__: Release the [Paper](https://arxiv.org/abs/2501.13918) and [Project Page](https://gongyeliu.github.io/videoalign/).
 
