@@ -24,7 +24,7 @@ The CSV file must contain the following columns with exact header names:
 * `fps_B`: Frame rate of video B.
 * `num_frames_B`: Number of frames in video B.
 
-We provide an example [here](./datasets/train/example.csv)
+We provide an example [here](example.csv)
 
 
 ## Training Script Parameters
