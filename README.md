@@ -40,6 +40,8 @@ Clone this repository and install packages.
 git clone https://github.com/KwaiVGI/VideoAlign
 cd VideoAlign
 conda env create -f environment.yaml
+conda activate VideoReward
+pip install flash-attn==2.5.8 --no-build-isolation
 ```
 
 ### 2. Download Pretrained Weights
