@@ -157,4 +157,3 @@ dependencies:
       - diffusers
       - pandas
       - opencv-python-headless
-      - flash-attn==2.5.8
