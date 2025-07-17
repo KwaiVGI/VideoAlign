@@ -15,7 +15,10 @@
 ## 📖 Introduction
 
 
-This repository open-sources the **VideoReward** component -- our VLM-based reward model introduced in the paper [Improving Video Generation with Human Feedback](https://arxiv.org/abs/2501.13918). VideoReward evaluates generated videos across three critical dimensions:
+This repository open-sources the **VideoReward** component -- our VLM-based reward model introduced in the paper [Improving Video Generation with Human Feedback](https://arxiv.org/abs/2501.13918). For Flow-DPO, we provide an implementation for text-to-image tasks [here](https://github.com/yifan123/flow_grpo/blob/main/scripts/single_node/dpo.sh).
+
+
+VideoReward evaluates generated videos across three critical dimensions:
 * Visual Quality (VQ): The clarity, aesthetics, and single-frame reasonableness.
 * Motion Quality (MQ): The dynamic stability, dynamic reasonableness, naturalness, and dynamic degress.
 * Text Alignment (TA): The relevance between the generated video and the text prompt.
@@ -27,6 +30,7 @@ This versatile reward model can be used for data filtering, guidance, reject sam
 
 
 ## 📝 Updates
+- __[2025.07.17]__: 🔥 Release the [Flow-DPO](https://github.com/yifan123/flow_grpo/blob/main/scripts/single_node/dpo.sh).
 - __[2025.02.08]__: 🔥 Release the [VideoGen-RewardBench](https://huggingface.co/datasets/KwaiVGI/VideoGen-RewardBench) and [Leaderboard](https://huggingface.co/spaces/KwaiVGI/VideoGen-RewardBench).
 - __[2025.02.08]__: 🔥 Release the [Code](#) and [Checkpoints](https://huggingface.co/KwaiVGI/VideoReward) of VideoReward.
 - __[2025.01.23]__: Release the [Paper](https://arxiv.org/abs/2501.13918) and [Project Page](https://gongyeliu.github.io/videoalign/).
@@ -99,8 +103,17 @@ Our reward model is based on [QWen2-VL-2B-Instruct](https://huggingface.co/Qwen/
 Please leave us a star ⭐ if you find our work helpful.
 ```bibtex
 @article{liu2025improving,
-      title={Improving Video Generation with Human Feedback},
-      author={Jie Liu and Gongye Liu and Jiajun Liang and Ziyang Yuan and Xiaokun Liu and Mingwu Zheng and Xiele Wu and Qiulin Wang and Wenyu Qin and Menghan Xia and Xintao Wang and Xiaohong Liu and Fei Yang and Pengfei Wan and Di Zhang and Kun Gai and Yujiu Yang and Wanli Ouyang},
-      journal={arXiv preprint arXiv:2501.13918},
-      year={2025}
+  title={Improving video generation with human feedback},
+  author={Liu, Jie and Liu, Gongye and Liang, Jiajun and Yuan, Ziyang and Liu, Xiaokun and Zheng, Mingwu and Wu, Xiele and Wang, Qiulin and Qin, Wenyu and Xia, Menghan and others},
+  journal={arXiv preprint arXiv:2501.13918},
+  year={2025}
 }
+```
+```bibtex
+@article{liu2025flow,
+  title={Flow-grpo: Training flow matching models via online rl},
+  author={Liu, Jie and Liu, Gongye and Liang, Jiajun and Li, Yangguang and Liu, Jiaheng and Wang, Xintao and Wan, Pengfei and Zhang, Di and Ouyang, Wanli},
+  journal={arXiv preprint arXiv:2505.05470},
+  year={2025}
+}
+```
