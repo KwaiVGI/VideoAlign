@@ -132,7 +132,7 @@ class VideoVLMRewardInference():
                         "content": [
                             {
                                 "type": "video", 
-                                "video": f"file://{video_path}", 
+                                "video": f"file://{os.path.abspath(video_path)}", 
                                 "max_pixels": max_pixels, 
                                 "fps": fps,
                                 "sample_type": self.data_config.sample_type,
@@ -150,7 +150,7 @@ class VideoVLMRewardInference():
                         "content": [
                             {
                                 "type": "video",
-                                "video": f"file://{video_path}", 
+                                "video": f"file://{os.path.abspath(video_path)}", 
                                 "max_pixels": max_pixels, 
                                 "nframes": num_frames,
                                 "sample_type": self.data_config.sample_type,
