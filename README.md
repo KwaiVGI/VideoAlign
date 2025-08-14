@@ -30,6 +30,7 @@ This versatile reward model can be used for data filtering, guidance, reject sam
 
 
 ## 📝 Updates
+- __[2025.08.14]__: 🔥 We provide the prompt sets used to evaluate video generation performance in this paper, including VBench, VideoGen-Eval, and TA-Hard. See [`./datasets/video_eval_prompts`](./datasets/video_eval_prompts/README.md) for details.
 - __[2025.07.17]__: 🔥 Release the [Flow-DPO](https://github.com/yifan123/flow_grpo/blob/main/scripts/single_node/dpo.sh).
 - __[2025.02.08]__: 🔥 Release the [VideoGen-RewardBench](https://huggingface.co/datasets/KwaiVGI/VideoGen-RewardBench) and [Leaderboard](https://huggingface.co/spaces/KwaiVGI/VideoGen-RewardBench).
 - __[2025.02.08]__: 🔥 Release the [Code](#) and [Checkpoints](https://huggingface.co/KwaiVGI/VideoReward) of VideoReward.
